@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+.starList{
+    /* border: 2px solid black; */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-star{
+    font-size: 2.3rem;
+    color: white;
+    padding-right: 15px;
+    cursor: pointer;
+}
+.output{
+    border: 1px solid wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.btnGrp{
+    display: flex;
+    justify-content: center;
+}
+.orange{
+    color: orange;
+}
+.yellow {
+    color: yellow;
+}
+
+
+
